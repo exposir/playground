@@ -19,5 +19,5 @@ jobs:
       - name: Fetch data
         uses: githubocto/flat@v3
         with:
-          http_url: https://github.com/exposir/liwenliang/blob/main/lib/comment.json
+          http_url: https://raw.githubusercontent.com/exposir/liwenliang/main/lib/comment.json
           downloaded_filename: data.json
