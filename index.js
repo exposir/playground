@@ -9,7 +9,7 @@ const init = async () => {
       .add("./*")
       .commit("first commit!")
       .addRemote("origin", "some-repo-url")
-      .push(["-u", "origin", "master"], () => console.log("done"));
+      .push("origin", "master");
 
     // await git.addRemote(name, repoUrl);
   } catch (e) {
