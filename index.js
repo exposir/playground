@@ -10,6 +10,7 @@ const init = async () => {
     // await simpleGit.pull("orgin", main);
     await simpleGit.add("./*");
     await simpleGit.commit("update");
+    await simpleGit.push("origin", "main");
 
     // const a = await git.init();
     // console.log(a);
