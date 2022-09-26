@@ -13,7 +13,7 @@ const init = async () => {
     }
   };
 
-  setTimeout(() => {
+  setInterval(() => {
     submit();
   }, 5000);
 };
