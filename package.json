@@ -1,0 +1,11 @@
+{
+  "name": "playground",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/exposir/playground.git",
+  "author": "孟世博 <897205285@qq.com>",
+  "license": "MIT",
+  "dependencies": {
+    "simple-git": "^3.14.1"
+  }
+}
